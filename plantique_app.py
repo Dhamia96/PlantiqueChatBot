@@ -1,6 +1,6 @@
 from openai import OpenAI
 import streamlit as st
-from dotenv import load_dotenv 
+from dotenv import load_dotenv
 import os
 import shelve
 
@@ -40,9 +40,7 @@ with st.sidebar:
     if st.button("Delete Chat History"):
         st.session_state.messages = []
         st.session_state.messages.append({"role": "system", "content": INSTRUCTIONS})
-
         save_chat_history({"role": "system", "content": INSTRUCTIONS})
-
 # Display chat messages
 for message in st.session_state.messages:
     # Skip rendering the instructions
