@@ -1,4 +1,5 @@
 # PlantiqueChatBot
+PlanTique is your personal plant care assistant, powered by cutting-edge generative AI. Easily manage your plants by providing basic information, and let the AI take over to offer personalized care advice. From watering schedules to pest control, PlanTique makes plant care effortless
 
 ## Steps to Follow Before Running `plantique_app.py`:
 
